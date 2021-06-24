@@ -57,7 +57,6 @@ const Home = () => {
           <Item />
           <Item />
           <Item />
-          
         </div>
       </section>
     </Layout>

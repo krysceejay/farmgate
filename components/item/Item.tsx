@@ -13,17 +13,26 @@ const Item = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
                   </svg>
                 </div>
-                <div className="text-xs text-gray-500 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus senectus malesuada odio faucibus. Vitae tincidunt nisl, mattis leo...</div>
-                <div className="flex justify-between items-center mt-2">
+                <div className="text-xs text-gray-500 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus senectus...</div>
+                <div className="flex justify-between items-end mt-2">
+                  <div>
+                    <div>
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 inline-block text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                      <span className="text-xs text-gray-500 ml-1 mt-1">Lagos State</span>
+                    </div>
+                    <div className="mt-1">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 inline-block text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                      </svg>
+                      <span className="text-xs text-gray-500 ml-1 mt-1">Merchant CCC</span>
+                    </div>
+                  </div>
+                  
                   <div>
                     <span className="text-current text-lg font-black">N20</span><span className="text-xs"> /GRAM</span>
-                  </div>
-                  <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 inline-block text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                    <span className="text-xs text-gray-500 ml-1 mt-1">Lagos State</span>
                   </div>
                 </div>
               </div>
