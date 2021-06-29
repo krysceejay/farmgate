@@ -4,7 +4,7 @@ import Item from '../components/item/Item'
 
 const Details = () => {
     const router = useRouter()
-    
+
     return (
         <Layout title="Details" showTabs={false}>
             <header className="flex justify-between items-center pt-6 px-4">
@@ -22,6 +22,7 @@ const Details = () => {
                 <div className="px-4 pb-8">
                     <h2 className="text-lg font-bold">Similiar to the Offer</h2>
                     <div className="grid grid-cols-1 gap-4 mt-4">
+                        <Item />
                         <Item />
                         <Item />
                         <Item />
