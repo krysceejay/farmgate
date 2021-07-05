@@ -54,6 +54,12 @@ const Item = () => {
                 </a>
               </Link>
             </div>
+            <div className="w-full bg-discount text-center py-2">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline-block text-current" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span className="text-xs font-bold ml-2 text-current">N2,000 Cheaper per Ton basis</span>
+            </div>
           </div>
     )
 }

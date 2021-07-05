@@ -10,6 +10,7 @@ module.exports = {
         "search-bg": "#F2F3F2",
         "overlay-color": "rgba(0, 0, 0, 0.3)",
         "call-brd": "#5582AD",
+        "discount": "#EAFFF1"
       },
       // minWidth: {
       //   '3': '0',

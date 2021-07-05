@@ -62,15 +62,11 @@ const Details = () => {
                     <p className="text-gray-600 text-sm mt-4">
                     Electrically operated, these control valves allow manual override and throttling, and are specially designed for greenhouses and landscape applications. They’re also available in both straight and angled configurations.
                     </p>
-                    <ul className="grid grid-cols-2 mt-4 text-xs gap-3 capitalize text-gray-600">
-                        <li>Application</li>
-                        <li>Function</li>
-                        <li>Operation</li>
-                        <li>Other Characteristics</li>
-                        <li>Irrigation</li>
-                        <li>For Control</li>
-                        <li>Hydraulic, Manual</li>
-                        <li>For Green House</li>
+                    <ul className="flex flex-col gap-2 mt-4 text-xs capitalize text-gray-600">
+                        <li className="grid grid-cols-2"><span>Application</span> <span className="font-bold">Function</span></li>
+                        <li className="grid grid-cols-2"><span>Operation</span> <span className="font-bold">Other Characteristics</span></li>
+                        <li className="grid grid-cols-2"><span>Irrigation</span> <span className="font-bold">For Control</span></li>
+                        <li className="grid grid-cols-2"><span>Hydraulic, Manual</span> <span className="font-bold">For Green House</span></li>
                     </ul>
                     <button className="bg-current text-white font-bold py-3 px-4 rounded focus:outline-none focus:shadow-outline w-full mt-4" type="button">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
