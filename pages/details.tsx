@@ -15,9 +15,23 @@ const Details = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
                 </svg>
             </header>
-            <div className="w-full h-52 mt-4">
-                <img src="/img/pngfuel.png" className="w-full h-full object-cover px-10" />
-            </div>
+            <section>
+                <div className="w-full h-52 mt-4">
+                    <img src="/img/pngfuel.png" className="w-full h-full object-cover px-10" />
+                </div>
+            </section>
+            <section className="px-4">
+                <div>
+                    <div className="flex justify-between item-center">
+                        <h3 className="text-base font-medium tracking-wide">Netafim Valve</h3>
+                        <div>
+                            <span className="text-current text-lg font-black">N20</span><span className="text-xs"> /GRAM</span>
+                        </div>
+                    </div>
+                </div>
+                <div></div>
+
+            </section>
             <section className="my-4">
                 <div className="px-4 pb-8">
                     <h2 className="text-lg font-bold">Similiar to the Offer</h2>
