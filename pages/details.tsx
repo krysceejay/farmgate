@@ -48,8 +48,14 @@ const Details = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
-                            <span className="text-sm text-gray-500 ml-1 mt-1">Added <span className="font-semibold">4days ago</span></span>
+                            <span className="text-sm text-gray-500 ml-1 mt-1">Added <span className="font-semibold">4 days ago</span></span>
                         </div>
+                    </div>
+                    <div className="w-full bg-discount text-center py-2 mt-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline-block text-current" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <span className="text-xs font-bold ml-2 text-current">N2,000 Cheaper per Ton basis</span>
                     </div>
                 </div>
                 <div className="mt-4">
