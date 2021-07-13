@@ -86,18 +86,32 @@ const Home = () => {
             </div>
           </section> 
         </> : 
-        <section className="bg-white py-4 px-4">
-          <div className="flex justify-between item-center">
+        <>
+        <div className="flex justify-between item-center sticky top-0 bg-white py-4 px-4">
             <h3 className="text-base font-bold">Recent Searches</h3>
             <span className="text-sm text-current">Clear</span>
-          </div>
-          <ul className="text-base mt-4">
+        </div>
+          <ul className="bg-white px-4 py-4 text-base">
+            <li className="py-4 border-b-2">Netafim Valve</li>
+            <li className="py-4 border-b-2">Netafim Valve</li>
+            <li className="py-4 border-b-2">Netafim Valve</li>
+            <li className="py-4 border-b-2">Netafim Valve</li>
+            <li className="py-4 border-b-2">Netafim Valve</li>
+            <li className="py-4 border-b-2">Netafim Valve</li>
+            <li className="py-4 border-b-2">Netafim Valve</li>
+            <li className="py-4 border-b-2">Netafim Valve</li>
+            <li className="py-4 border-b-2">Netafim Valve</li>
+            <li className="py-4 border-b-2">Netafim Valve</li>
+            <li className="py-4 border-b-2">Netafim Valve</li>
+            <li className="py-4 border-b-2">Netafim Valve</li>
+            <li className="py-4 border-b-2">Netafim Valve</li>
+            <li className="py-4 border-b-2">Netafim Valve</li>
             <li className="py-4 border-b-2">Netafim Valve</li>
             <li className="py-4 border-b-2">Netafim Valve</li>
             <li className="py-4 border-b-2">Netafim Valve</li>
             <li className="py-4">Netafim Valve</li>
           </ul>
-        </section> 
+        </>
       }
     </Layout>
   )
