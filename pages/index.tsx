@@ -12,10 +12,10 @@ const Home = () => {
       //dispatch({ type: 'NOTIFY', payload: {} })
   }
 
-  const handleOnFocus = e => {
+  const handleOnFocus = () => {
     setNotFocus(false)
   }
-  const handleOnBlur = e => {
+  const handleOnBlur = () => {
     setNotFocus(true)
   }
 
