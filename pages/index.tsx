@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import React, {useState} from 'react'
 import Layout from '../components/Layout'
 import Item from '../components/item/Item'
 
@@ -6,7 +6,7 @@ const Home = () => {
   const [searchData, setSearchData] = useState('')
   const [notFocus, setNotFocus] = useState(true)
 
-  const handleOnchange = e => {
+  const handleOnchange = (e: React.ChangeEvent<HTMLInputElement>) => {
       const {name, value} = e.target
       setSearchData(value)
       //dispatch({ type: 'NOTIFY', payload: {} })
